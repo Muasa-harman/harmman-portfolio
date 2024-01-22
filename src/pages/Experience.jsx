@@ -8,7 +8,7 @@ const Experience = () => {
       <div className="latest">
         <div className="card1">
           <h2 className="title">
-            Full Stack Web Developer,
+            Full Stack Web Developer
             <br />
             Kenya water towers agency Nairobi
           </h2>

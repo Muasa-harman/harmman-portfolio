@@ -1,5 +1,4 @@
-
-import "./skills.scss"
+import "./skills.scss";
 
 const Skills = () => {
   return (
@@ -8,33 +7,69 @@ const Skills = () => {
       <h3 className="language">PROGRAMMING LANGUAGES & TOOLS</h3>
       <div className="cards">
         <div className="tools">
-        <div className="logo">
-          <img className="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" alt="" />
+          <div className="logo">
+            <img
+              className="image"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"
+              alt=""
+            />
+          </div>
+          <div className="logo">
+            <img
+              className="image"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+              alt=""
+            />
+          </div>
+          <div className="logo">
+            <img
+              className="image"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png"
+              alt=""
+            />
+          </div>
+          <div className="logo">
+            <img
+              className="image"
+              src="https://cdn.icon-icons.com/icons2/2699/PNG/512/tailwindcss_logo_icon_170649.png"
+              alt=""
+            />
+          </div>
+          <div className="logo">
+            <img
+              className="image"
+              src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"
+              alt=""
+            />
+          </div>
+          <div className="logo">
+            <img
+              className="image"
+              src="https://res.cloudinary.com/practicaldev/image/fetch/s--RpUfSAFP--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8otweo5ef6kwc26rmxe5.png"
+              alt=""
+            />
+          </div>
+          <div className="logo">
+            <img
+              className="image"
+              src="https://miro.medium.com/v2/resize:fit:1358/1*s9kgU8F1eB7Tzs7sG0YhBg.jpeg"
+              alt=""
+            />
+          </div>
+          <div className="logo">
+            <img
+              className="image"
+              src="https://upload.wikimedia.org/wikipedia/commons/d/d2/C_Sharp_Logo_2023.svg"
+              alt=""
+            />
+          </div>
         </div>
         <div className="logo">
-          <img className="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="" />
-        </div>
-        <div className="logo">
-          <img className="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" alt="" />
-        </div>
-        <div className="logo">
-          <img className="image" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/tailwindcss_logo_icon_170649.png" alt="" />
-        </div>
-        <div className="logo">
-          <img className="image" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="" />
-        </div>
-        <div className="logo">
-          <img className="image" src="https://res.cloudinary.com/practicaldev/image/fetch/s--RpUfSAFP--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8otweo5ef6kwc26rmxe5.png" alt="" />
-        </div>
-        <div className="logo">
-          <img className="image" src="https://miro.medium.com/v2/resize:fit:1358/1*s9kgU8F1eB7Tzs7sG0YhBg.jpeg" alt="" />
-        </div>
-        <div className="logo">
-          <img className="image" src="https://upload.wikimedia.org/wikipedia/commons/d/d2/C_Sharp_Logo_2023.svg" alt="" />
-        </div>
-        </div>
-        <div className="logo">
-          <img className="image" src="https://iconape.com/wp-content/png_logo_vector/nodejs.png" alt="" />
+          <img
+            className="image"
+            src="https://iconape.com/wp-content/png_logo_vector/nodejs.png"
+            alt=""
+          />
         </div>
         <div className="workflow">
           <ul>
@@ -135,15 +170,29 @@ const Skills = () => {
             </li>
           </ul>
           <ul>
-          <span className="title">Continuous Integration/Continuous Deployment (CI/CD):</span>
-            <li>Implement CI/CD pipelines to automate testing and deployment processes.</li>
-            <li>Ensure code changes are tested and deployed seamlessly with minimal manual intervention.</li>
+            <span className="title">
+              Continuous Integration/Continuous Deployment (CI/CD):
+            </span>
+            <li>
+              Implement CI/CD pipelines to automate testing and deployment
+              processes.
+            </li>
+            <li>
+              Ensure code changes are tested and deployed seamlessly with
+              minimal manual intervention.
+            </li>
           </ul>
 
           <ul>
-          <span className="title">Maintenance and Updates:</span>
-            <li>Monitor and update dependencies regularly to address security vulnerabilities.</li>
-            <li>Implement new features, enhancements, and bug fixes based on user feedback and evolving requirements.</li>
+            <span className="title">Maintenance and Updates:</span>
+            <li>
+              Monitor and update dependencies regularly to address security
+              vulnerabilities.
+            </li>
+            <li>
+              Implement new features, enhancements, and bug fixes based on user
+              feedback and evolving requirements.
+            </li>
           </ul>
         </div>
       </div>
