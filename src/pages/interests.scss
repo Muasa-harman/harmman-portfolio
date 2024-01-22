@@ -1,0 +1,37 @@
+     
+.interests {
+    padding: 20px;
+    background-color: #c8caf0;
+    color: #fff;
+    border-radius: 10px;
+    // margin-top: 50px;
+  
+    h2.title {
+      color: #213547; // Use the text color variable for headings
+      text-align: center;
+    }
+  
+    .body {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-left: auto;
+      
+      .card {
+        flex: 1;
+        background-color: #c8caf0; // Use a specific color for the cards
+        color: #213547; // Use a specific text color for the cards
+        padding: 20px;
+        border-radius: 8px;
+  
+        p.interest {
+          margin: 0;
+          font-size: larger;
+  
+          &:first-child {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
