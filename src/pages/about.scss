@@ -1,5 +1,6 @@
 .about{
     align-content: center;
+    
     text-align: center;
     height: 100%;
     background-color: #e6e7f5;
@@ -36,7 +37,13 @@
 
     .socials{
         align-items: center;
-        // justify-content: space-between;
+        align-content: center;
+    
+    text-align: center;
+    height: 100%;
+    background-color: #e6e7f5;
+    margin-left: 250px;
+    overflow-y: hidden;
         
         .links{
             //    text-align: center;
@@ -55,3 +62,60 @@
         font-size: x-large;
     }
 }
+
+.about {
+    align-content: center;
+    margin: 0;
+    text-align: center;
+    height: 100%;
+    background-color: #e6e7f5;
+    // margin-left: 250px;
+    overflow-y: hidden;
+
+  
+    @media (max-width: 768px) {
+      /* Styles for screens with a maximum width of 768px or smaller */
+      padding: 20px;
+    }
+  
+    .image {
+        align-items: center;
+        margin-bottom: 20px;
+
+        .profileP{
+            height: 280px;
+            border-radius: 200px;
+            // width: 80px;
+        }
+  
+      @media (max-width: 768px) {
+        /* Additional styles for screens with a maximum width of 768px or smaller */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  
+    /* Add more media queries and adjust styles as needed for other elements */
+    
+    .profile {
+        font-family: 'Times New Roman', Times, serif;
+  
+      @media (max-width: 768px) {
+        /* Additional styles for screens with a maximum width of 768px or smaller */
+        font-size: 1.5rem;
+      }
+    }
+  
+    .name {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+      @media (max-width: 768px) {
+        /* Additional styles for screens with a maximum width of 768px or smaller */
+        font-size: 1.2rem;
+      }
+    }
+  
+    /* Repeat the process for other elements as needed */
+  }
+  
