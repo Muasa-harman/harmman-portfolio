@@ -13,12 +13,13 @@
 
   .latest {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 
     .card1,
     .card2,
     .card3 {
-      background-color: #a79898; 
+      background-color: #dbdce4; 
       color: #213547;
       padding: 20px;
       flex: 1;
@@ -45,3 +46,14 @@
   }
 }
 
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .experience {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+      margin-left: 0;
+  }
+
+  .content {
+      margin-left: 0;
+  }
+}
