@@ -7,8 +7,9 @@ const About = () => {
   return (
     <div className="about">
        <div className="image">
-        <h3 className="">upload cv</h3>
-        <h3 className="">upload cover letter</h3>
+        <input type="file" label="upload cover"/>
+        
+        <input type="file" />
         {/* <img
           className="profileP"
           src="https://media.licdn.com/dms/image/D4D03AQG7BUxHF4I8Tg/profile-displayphoto-shrink_800_800/0/1701194850229?e=1710979200&v=beta&t=_4pcIIxCbUnBBApuuGUFLhqB1ocxGyilNSYQWWXUERU"

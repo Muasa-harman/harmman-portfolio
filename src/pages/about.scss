@@ -10,6 +10,7 @@
     .image{
         align-items: center;
         margin-bottom: 20px;
+        justify-content: space-between;
 
         .profileP{
             height: 280px;
@@ -42,7 +43,7 @@
     text-align: center;
     height: 100%;
     background-color: #e6e7f5;
-    margin-left: 250px;
+    margin-left: 50px;
     overflow-y: hidden;
         
         .links{
@@ -55,6 +56,17 @@
             height: 40px;
            }
         }
+
+        @media (max-width: 768px) {
+            /* Adjust styles for screens with a maximum width of 768px or smaller */
+            flex-direction: column; /* Stack the social links vertically */
+            align-items: center; /* Center the social links */
+            
+            .social {
+              margin-right: 0; /* Remove right margin for smaller screens */
+              margin-bottom: 10px; /* Add bottom margin for spacing */
+            }
+          }
     }
 
     .summary{
@@ -63,19 +75,20 @@
     }
 }
 
-.about {
-    align-content: center;
-    margin: 0;
-    text-align: center;
-    height: 100%;
-    background-color: #e6e7f5;
-    // margin-left: 250px;
-    overflow-y: hidden;
 
-  
-    @media (max-width: 768px) {
-      /* Styles for screens with a maximum width of 768px or smaller */
+
+@media (max-width: 768px) {
+    /* Styles for screens with a maximum width of 768px or smaller */
+    .about {
+        align-content: center;
+        margin: 0;
+        text-align: center;
+        height: 100%;
+        background-color: #e6e7f5;
+        // margin-left: 250px;
+        overflow-y: hidden;
       padding: 20px;
+    //   width: calc(100% - 250px);
     }
   
     .image {
