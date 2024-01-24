@@ -4,6 +4,7 @@
     margin-top: 150px;
     background-color: #e6e7f5;
     border-radius: 30px;
+    padding: 20px;
     
 
     .title{
@@ -11,6 +12,7 @@
         // background-color: #bec1f7;
         padding: 15px;
         border-radius: 20px;
+        background-color: #bec1f7;
     }
 
     .school{
@@ -33,5 +35,13 @@
         }
     }
 }
+
+
+@media (min-width: 768px) {
+    .education{
+        margin-top: 0px;
+
+    }
+  }
 
 

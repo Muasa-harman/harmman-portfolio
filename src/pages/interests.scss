@@ -4,18 +4,19 @@
     background-color: #c8caf0;
     color: #fff;
     border-radius: 10px;
-    // margin-top: 50px;
+    // margin-left: 50px;
   
     h2.title {
-      color: #213547; // Use the text color variable for headings
+      color: #ccdae6; // Use the text color variable for headings
       text-align: center;
+      background-color: #142330;
     }
   
     .body {
       display: flex;
       gap: 20px;
       align-items: center;
-      margin-left: auto;
+      margin-left: 250px;
       
       .card {
         flex: 1;
@@ -35,3 +36,21 @@
       }
     }
   }
+
+
+@media screen and (max-width: 768px) {
+  .interests{
+    padding: 20px;
+    background-color: #c8caf0;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 0px;
+
+    .body {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-left: 0px;
+  }
+  } 
+}
