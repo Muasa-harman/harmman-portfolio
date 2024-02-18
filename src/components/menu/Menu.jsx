@@ -29,7 +29,8 @@ const Menu = () => {
       <a className="link" target='_blank'  rel="noopener noreferrer"  href="https://hotel-reservation-app-uesu.onrender.com/">Hotel Reservation System</a>
       <a  className="link" target='_blank'  rel="noopener noreferrer" href="https://property-management-rh6h.onrender.com/"> 
       Property Management</a>
-      <a className="link" target='_blank'  rel="noopener noreferrer"  href="https://myportfolioblogapp.onrender.com">WorkInprogress</a>
+      <a className="link" target='_blank'  rel="noopener noreferrer"  href="https://myportfolioblogapp.onrender.com">Javascript & library blog</a>
+      <a className="link" target='_blank'  rel="noopener noreferrer"  href="https://yala-finance-dashboard-demo.vercel.app/">Finance-System Dashboard</a>
       <div className="">
       <a className="link" href="#">Contacts</a>
       </div>

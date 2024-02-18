@@ -9,7 +9,7 @@ import './sidebar.scss';
 import { useState } from 'react';
 
 function Sidebar() {
-  const [isSidebarOpen,setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen,setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () =>{
     setIsSidebarOpen(!isSidebarOpen);
